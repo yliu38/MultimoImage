@@ -1,1 +1,1 @@
-# CT_MRI_demo
+# Multimodal Image Analysis
