@@ -94,7 +94,7 @@ The implementation includes several memory optimization techniques:
 ## Code Structure
 
 - `transformer.py`: Contains the Vision Transformer implementation
-- `train3.py`: Main training script with memory optimizations
+- `train.py`: Main training script with memory optimizations
 - `preprocessing.py`: Data loading and preprocessing pipeline
 - `display.py`: Visualization utilities
 
@@ -112,22 +112,26 @@ The implementation includes several memory optimization techniques:
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/TransformerHaNSeg.git
-cd TransformerHaNSeg
 pip install -r requirements.txt
+```
+
+### Preprocessing images
+```bash
+python preprocessing.py
+```
+
+### Visualize sample images
+
+```bash
+python display.py
 ```
 
 ### Training
 
 ```bash
-python train3.py
+python train.py
 ```
 
-### Visualization
-
-```bash
-python display.py
-```
 
 ## Future Work
 
@@ -135,12 +139,8 @@ python display.py
 - [ ] Integrate attention visualization for model interpretability
 - [ ] Add transfer learning to improve performance on challenging structures
 - [ ] Explore additional modalities (e.g., PET) for further improvement
-- [ ] Develop real-time inference pipeline for clinical use
 
 ## Acknowledgements
 
 This project utilizes the HaN-Seg dataset for model training and evaluation. Special thanks to the medical imaging team for providing the annotated data.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
