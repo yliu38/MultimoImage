@@ -187,7 +187,7 @@ def train():
     print("==== Script started ====")
     
     # --- Config ---
-    ROOT_DIR = "/rsrch3/home/gi_med_onc-rsrch/yliu34/CT_MRI/HaN-Seg"
+    ROOT_DIR = "./HaN-Seg"
     BATCH_SIZE = 2
     IMG_SIZE = 224
     LR = 1e-4
