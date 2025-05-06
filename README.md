@@ -71,7 +71,7 @@ The HaN-Seg dataset consists of paired CT and T1-weighted MR images with expert 
 - **Challenge**: CT and MR have vastly different intensity scales and distributions
 - **Solution**:
   - CT normalization: Clipped to [-1000, 1000] HU range and rescaled to [0, 1]
-  - MR normalization: Applied z-score normalization (μ=0, σ=1) or min-max scaling for low variance cases
+  - MR normalization: Applied min-max scaling for low variance cases
   - Added explicit handling for edge cases (e.g., constant intensity slices)
 
 #### Memory Management
