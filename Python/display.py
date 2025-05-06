@@ -8,8 +8,8 @@ import SimpleITK as sitk
 from preprocessing import HaNSegDataset
 
 # 1) Configuration
-DATA_DIR = "/rsrch3/home/gi_med_onc-rsrch/yliu34/CT_MRI/HaN-Seg"
-OUTPUT_PATH = "/rsrch3/home/gi_med_onc-rsrch/yliu34/CT_MRI/sample_slice.png"
+DATA_DIR = "./HaN-Seg"
+OUTPUT_PATH = "./sample_slice.png"
 
 # 2) Load first case
 ds = HaNSegDataset(DATA_DIR)
