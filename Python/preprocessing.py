@@ -93,7 +93,7 @@ class HaNSegDataset(torch.utils.data.Dataset):
 
 if __name__ == "__main__":
     # ---- User configuration ----
-    DATA_DIR = "/rsrch3/home/gi_med_onc-rsrch/yliu34/CT_MRI/HaN-Seg"
+    DATA_DIR = "./HaN-Seg"
 
     # Instantiate dataset
     ds = HaNSegDataset(DATA_DIR)
