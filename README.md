@@ -79,7 +79,7 @@ TransformerSegmentation(
 - **Training Strategy**: 
   - Case-based train/validation/test split (60/20/20)
   - Batch size: 2
-  - Epochs: 5
+  - Epochs: 10
   - Image size: 224×224
 
 ### Memory Optimization
