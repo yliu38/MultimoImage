@@ -116,7 +116,7 @@ TransformerSegmentation(
 - **Training Strategy**: 
   - Case-based train/validation/test split (60/20/20)
   - Batch size: 2 (memory-constrained)
-  - Epochs: 5
+  - Epochs: 10
   - Image size: 224×224
   - Evaluation metric: Dice coefficient
 
