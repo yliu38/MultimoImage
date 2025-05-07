@@ -191,7 +191,7 @@ def train():
     BATCH_SIZE = 2
     IMG_SIZE = 224
     LR = 1e-4
-    EPOCHS = 5
+    EPOCHS = 10
     DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     NUM_WORKERS = 0  # Avoid multiprocessing issues
     
