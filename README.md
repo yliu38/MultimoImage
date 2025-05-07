@@ -4,7 +4,8 @@
 
 ## Project Overview
 
-This repository contains a deep learning solution for automatic segmentation of Organs at Risk (OARs) in Head and Neck (HaN) CT and MR images using a Vision Transformer architecture. The model leverages both CT and MR modalities to improve segmentation accuracy across 30 different anatomical structures.
+This repository contains a deep learning solution for automatic segmentation of Organs at Risk (OARs) in Head and Neck (HaN) CT and MR images using a Vision Transformer architecture. The model leverages both CT and MR modalities to improve segmentation accuracy across 30 different anatomical structures. The dataset used for training and evaluation is the [HaN-Seg: The Head and Neck Organ-at-Risk CT & MR Segmentation Dataset](https://zenodo.org/records/7442914).
+
 
 ### Key Features
 
